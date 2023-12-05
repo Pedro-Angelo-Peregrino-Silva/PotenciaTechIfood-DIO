@@ -39,6 +39,37 @@
                                             para ser classificado como nível " + expClassification + ".")
             </p>
         </div>
+
+        <div class="text-center mt-5">
+            <h3 class="mt-3">Desafio classificador de XP do Héroi - Uso do Switch</h3>
+            <p class="mt-3">Todos os dados são mostrados no console</p>
+            <h4 class="mt-3">Segue abaixo uma cópia do código:</h4>
+            <p class="mt-3 text-bg-dark text-light p-5">
+                //Utilizando o switch no lugar do if
+                let heroNameSwitch = "Goku";
+                let expHerSwitch = 7255;
+                let expClassificationSwitch = " ";
+
+                switch (true) {
+                case expHero < 1000: expClassificationSwitch="Ferro" ; break; case expHero> 1000 && expHero <= 2000:
+                        expClassificationSwitch="Bronze" ; break; case expHero> 2000 && expHero <= 5000:
+                            expClassificationSwitch="Prata" ; break; case expHero> 6000 && expHero <= 7000:
+                                expClassificationSwitch="Ouro" ; break; case expHero> 7000 && expHero <= 8000:
+                                    expClassificationSwitch="Platina" ; break; case expHero> 8000 && expHero <= 9000:
+                                        expClassificationSwitch="Ascendente" ; break; case expHero> 9000 && expHero <=
+                                            10000: expClassificationSwitch="Imortal" ; break; case expHero>= 10000:
+                                            expClassificationSwitch = "Radiante";
+                                            break;
+                                            default:
+                                            expClassificationSwitch = "Sem Classificação";
+                                            }
+
+                                            console.log("O Héroi " + heroNameSwitch + " possui nível de experiência
+                                            suficiente para ser classificado como nível " + expClassificationSwitch +
+                                            ".");
+
+            </p>
+        </div>
     </main>
 
 
